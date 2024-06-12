@@ -1,0 +1,17 @@
+.nav-icon {
+    margin-right: 1%;
+}
+.bg-body-tertiary {
+    text-transform: uppercase;
+    background-color: white;
+
+    .navbar-brand {
+        font-weight: 700;
+    }
+    .nav-link {
+        font-weight: 300;
+    }
+    .nav-link:hover {
+        font-weight: 600;
+    }
+}

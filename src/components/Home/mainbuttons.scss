@@ -1,0 +1,14 @@
+.main-buttons {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: .3em;
+
+    button {
+        font-weight: 800;
+        font-size: .85em;
+
+        svg {
+            margin-right: .5em;
+        }
+    }
+}

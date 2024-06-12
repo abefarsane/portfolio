@@ -1,0 +1,16 @@
+.projects-page {
+    
+
+    .projects-display {
+
+        margin-top: 2.25em;
+        display: grid;
+        row-gap: .75em;
+
+        .prj-item {
+            background-color: rgb(236, 236, 236);
+            border-radius: 5px;
+            height: 10em;
+        }
+    }
+}

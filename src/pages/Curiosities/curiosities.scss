@@ -1,0 +1,48 @@
+.curiosities-page {
+
+
+    .info-section {
+
+        margin-top: 3em;
+
+        display: grid;
+        row-gap: 2.5%;
+
+        h3 {
+            font-weight: 300;
+            text-align: right;
+            font-style: italic;
+            color: grey;
+            margin-bottom: 0;
+        }
+
+        hr {
+            margin-bottom: 2%;
+            margin-top: 0;
+        }
+
+        p {
+            background-color: rgb(242, 242, 242);
+            border-radius: 5px;
+            font-family: "Prata";
+            padding: 7.5%;
+            line-height: 1.25em;
+        }
+
+        .imgs {
+
+            margin-top: 5%;
+            width: 100%;
+            height: 3em;
+            display: flex;
+            grid-template-columns: 1fr 1fr;
+            justify-content: flex-end;
+            column-gap: 2%;
+
+            img {
+                width: 2em;
+                height: fit-content;
+            }
+        }
+    }
+}
